@@ -1,8 +1,8 @@
 {
   "expo": {
-  "scheme": "intro",
-    "name": "intro",
-    "slug": "intro",
+    "scheme": "furnitrade",
+    "name": "FURNI-TRADE",
+    "slug": "furni-trade",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.kitsuneacademy.furnitrade"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be6fb771-a069-4416-8731-afd8c8d5e64d"
+      }
+    },
+    "owner": "kitsuneacademy"
   }
 }

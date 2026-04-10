@@ -84,7 +84,8 @@ export function ItemsProvider({ children }) {
             ...item,
             imageUrls: (item.images || []).map(
                 (filedId) =>
-                    // `https://sgp.cloud.appwrite.io/v1/storage/buckets/${BUCKET_ID}/files/${filedId}/view?project=69bf9eac00097f4b1448`
+      //  //example=>
+        //`https://sp.cloud.appwrite.io/v1/storage/buckets/${BUCKET_ID}/files/${filedId}/view?project=69bf8cac00097f4b1848`
                       `projectEndPoint/storage/buckets/${BUCKET_ID}/files/${filedId}/view?project=projectId`
             )
         }))

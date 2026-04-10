@@ -11,4 +11,4 @@
 
 
 3. UPDATE THIS LINE BASE ON YOUR OWN ENDPOINT AND PROJECT INSIDE <Context folder ItemsContext.jsx>
-  `https:///v1/storage/buckets/${BUCKET_ID}/files/${filedId}/view?project=projectId`
+  `projectEndPoint/storage/buckets/${BUCKET_ID}/files/${filedId}/view?project=projectId`
